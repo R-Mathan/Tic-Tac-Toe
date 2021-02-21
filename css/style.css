@@ -1,0 +1,54 @@
+:root{
+    --purple: #3e0249;
+}
+body{
+    color: var(--purple);
+    font-family: 'Reggae One', cursive;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.container{
+    padding: 40px;
+    margin: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#gameboard{
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+.box{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    font-size: 110PX;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--purple);
+    color: white;
+    border-color: var(--purple);
+    font-size: 14px;
+    transition: 200ms transform;
+    font-family: 'Reggae One', cursive;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    transform: translateY(-2px);
+}
